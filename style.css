@@ -4,7 +4,16 @@ background-color: #2A2C2F;
 margin:0;
 }
 .header{
-margin-right: 148px;
+margin: 0 auto;
+max-width: 984px;
+min-height: 983px;
+padding-top: 34px;
+border: solid red 1px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+
 }
 .header__title{
 font-family: Inter;
@@ -14,6 +23,8 @@ font-size: 96px;
 line-height: 100px;
 text-align: center;
 color: #FFFFFF;
+max-width: 793px;
+margin: 0 auto;
 
 }
 .header__subtitle{
@@ -22,13 +33,19 @@ font-style: normal;
 font-weight: normal;
 font-size: 30px;
 line-height: 36px;
+/* or 120% */
 text-align: center;
 color: #FFFFFF;
+max-width: 720px;
+margin: 0 auto;
+padding-top: 32px;
+padding-bottom: 64px;
 }
 .header__logo{
-width: 270px;
-height: 70px;
+max-width: 270px;
+min-height: 70px;
 margin:0 auto;
+padding-bottom: 91px;
 }
 .header__image{
 width: 984px;
@@ -166,4 +183,88 @@ border-radius: 4px;
     margin: 0 auto;
     display: flex;
     position: relative;
+}
+.place__image{
+max-width: 460px;
+min-height: 460px;
+}
+.place__title{
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+/* or 106% */
+color: #FFFFFF;
+}
+.place__paragraph{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 163%;
+/* or 29px */
+
+
+color: #FFFFFF;
+}
+.place__website__url-heading{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.12em;
+text-transform: uppercase;
+
+color: #AAAAAA;
+
+}
+.place__link{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+text-decoration: none;
+
+color: #FFFFFF;
+
+}
+.place{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-gap:40px;
+    border: solid red 1px;
+    
+}
+.places{
+    max-width: 984px;
+    margin: 0 auto;
+}
+.place__button{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 13px 20px;
+background: #0278FE;
+border-radius: 4px;
+min-width: 208px;
+max-height: 22px;
+
 }
