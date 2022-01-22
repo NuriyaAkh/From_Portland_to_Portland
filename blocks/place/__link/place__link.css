@@ -1,0 +1,21 @@
+.place__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+  text-align: center;
+  padding: 13px 20px;
+  background: #0278fe;
+  border-radius: 4px;
+  max-width: 248px;
+  max-height: 22px;
+  text-decoration: none;
+  transition: linear 0.5s;
+}
+.place__link:hover{
+  background-color:#0063d2;
+  ;
+}

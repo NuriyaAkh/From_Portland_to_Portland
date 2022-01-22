@@ -1,0 +1,6 @@
+.place__artist {
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

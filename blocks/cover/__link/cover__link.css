@@ -1,0 +1,16 @@
+.cover__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding: 13px 20px;
+  background: #0278fe;
+  border-radius: 4px;
+  max-width: 137px;
+  max-height: 48px;
+}
