@@ -2,6 +2,7 @@
   background-image: url(../../images/background.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   max-width: 1184px;
   min-height: 740px;
   margin: 0 auto;
@@ -10,4 +11,8 @@
   position: relative;
   justify-content: center;
   align-items: center;
+  transition: linear 0.5s;
+}
+.cover:hover{
+  background-image:url(../../images/cover.png);
 }

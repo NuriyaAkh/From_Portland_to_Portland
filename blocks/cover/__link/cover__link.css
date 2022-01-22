@@ -13,4 +13,9 @@
   border-radius: 4px;
   max-width: 137px;
   max-height: 48px;
+  transition: linear 0.5s;
+}
+.cover__link:hover{
+  background-color: #0063d2;
+
 }
