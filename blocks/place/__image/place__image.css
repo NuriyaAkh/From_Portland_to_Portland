@@ -3,4 +3,5 @@
   min-height: 460px;
   width: 100%;
   object-fit: cover;
+  grid-row: 'image';
 }

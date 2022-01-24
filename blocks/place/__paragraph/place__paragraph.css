@@ -7,4 +7,5 @@
   /* or 29px */
   color: #ffffff;
   margin: 0;
+  grid-column: 'text';
 }
