@@ -3,8 +3,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 15px;
-  /* identical to box height */
+  line-height: 1.25;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #aaaaaa;

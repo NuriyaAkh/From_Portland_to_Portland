@@ -3,7 +3,22 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.07;
   color: #ffffff;
   max-width: 785px;
+  width: 100%;
+}
+@media  screen and (max-width:768px) {
+  .intro__title{
+    max-width: 720px;
+
+  }
+}
+@media  screen and (max-width:320px){
+  .intro__title{
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+
+  }
 }

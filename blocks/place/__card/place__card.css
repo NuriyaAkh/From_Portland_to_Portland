@@ -1,9 +1,30 @@
 .place__card{
   max-width: 984px;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 48px 40px;
-  margin: 80px auto;
+  margin: 80px auto 0;
   box-sizing: border-box;
+}
+.place__card:first-child{
+  margin-top: 0;
+}
+@media screen and (max-width:768px) {
+  .place__card{
+  max-width:720px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap:46px 28px;
+  }
+}
+@media  screen and (max-width:320px) {
+  .place__card{
+    max-width: 288px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap:30px;
+  }
+
 }

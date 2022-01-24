@@ -16,3 +16,19 @@
 .cover:hover{
   background-image:url(../../images/cover.png);
 }
+@media screen and (max-width:768px){
+  .cover{
+    width: 100%;
+    min-height: 746px;
+  }
+
+}
+@media screen and (max-width:320px){
+  .cover{
+    width:100%;
+    min-height: 254px;
+
+  }
+
+}
+

@@ -3,8 +3,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
-  /* or 122% */
+  line-height: 1.22;
   text-align: center;
   color: #ffffff;
   max-width: 280px;
@@ -13,4 +12,10 @@
   padding-bottom: 32px;
   display: flex;
   flex-wrap: wrap;
+}
+@media screen and (max-width:320px){
+  .cover__subtitle{
+  font-size: 14px;
+line-height: 1.14;
+  }
 }
