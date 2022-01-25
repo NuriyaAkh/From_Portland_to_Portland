@@ -6,10 +6,9 @@
   grid-template-rows: auto;
   grid-template-areas: "place-name artist"
                         "img text"
-                         "button text"
-                         " . text"
+                        "button text"
+                        " . text";
 
-  ;
   grid-gap: 48px 40px;
   margin: 80px auto 0;
   box-sizing: border-box;
