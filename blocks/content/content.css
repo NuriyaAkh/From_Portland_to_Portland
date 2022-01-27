@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 100vh;
   margin: 0 auto;
-}
+  }
 @media screen  and (max-width:768px){
   .content{
   max-width: 720px;
