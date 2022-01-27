@@ -9,9 +9,8 @@
   max-width: 720px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 32px;
-  padding-bottom: 64px;
-}
+  padding:32px 10px 64px 20px;
+  }
 @media screen and (max-width:768px){
   .lead__subtitle{
     padding-bottom: 36px;
