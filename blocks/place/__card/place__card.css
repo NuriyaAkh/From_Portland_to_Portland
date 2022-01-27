@@ -4,10 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "place-name artist"
-  "img text"
-  "button text"
-  " . text";
+
 
   column-gap:40px;
   row-gap: 48px;
