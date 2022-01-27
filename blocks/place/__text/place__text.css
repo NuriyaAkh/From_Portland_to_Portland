@@ -3,7 +3,7 @@
     grid-row-end: 4;
     grid-column: 2;
   }
-  @media screen and (max-width:330px){
+  @media screen and (max-width:320px){
     .place__text{
       grid-row-start: unset;
       grid-row-end: unset;
