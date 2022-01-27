@@ -1,19 +1,19 @@
 .place {
   margin: 0 auto;
-  padding:0 30px 44px;
+  padding:0 30px 44px 30px;
 }
 @media screen  and (max-width:768px){
   .place{
     max-width: 720px;
     width: 100%;
-    padding:0 30px 92px;
+    padding:0 30px 92px 30px;
   }
 
 }
 @media screen and (max-width:320px){
   .place{
   max-width: 320px;
-  padding:0 30px 64px;
+  padding:0 30px 64px 30px;
   }
 
 }
