@@ -1,11 +1,13 @@
   .place__text{
     grid-row-start: span 3;
 
+
   }
   @media screen and (max-width:320px){
     .place__text{
       grid-row-start: unset;
-
+      box-sizing: border-box;
+      padding: 0 10px;
     }
 
   }
