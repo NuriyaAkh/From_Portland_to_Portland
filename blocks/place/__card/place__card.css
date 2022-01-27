@@ -5,12 +5,13 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: "place-name artist"
-                        "img text"
-                        "button text"
-                        " . text";
+  "img text"
+  "button text"
+  " . text";
 
-  grid-gap: 48px 40px;
-  margin: 80px auto 0;
+  column-gap:40px;
+  row-gap: 48px;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 .place__card:first-child{
@@ -20,15 +21,19 @@
   .place__card{
   max-width:720px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap:46px 28px;
+  row-gap: 46px;
+  column-gap: 28px;
   }
 }
 @media  screen and (max-width:520px) {
   .place__card{
-    max-width: 288px;
-    display: flex;
-    flex-direction: column;
+    min-width: 288px;
+    grid-template-columns: 1f;
+    grid-template-rows: auto;
+    row-gap: 30px;
+
+
+
   }
 
 }
